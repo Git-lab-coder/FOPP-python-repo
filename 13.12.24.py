@@ -1,4 +1,5 @@
 a=10
 b=5
-res=a+b
-print("the sum of ",a ," and ",b, " is ",res)
+c=2
+res=a+b+c
+print("the sum of is ",res)
