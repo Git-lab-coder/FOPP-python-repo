@@ -1,5 +1,6 @@
-a=10
-b=5
-c=2
-res=a+b+c
-print("the sum of is ",res)
+def add(a,b):
+    return a+b
+num1=5
+num2=4
+sum=add(num1,num2)
+print(sum)
