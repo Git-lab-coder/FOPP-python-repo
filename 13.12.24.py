@@ -1,6 +1,6 @@
-def add(a,b):
-    return a+b
-num1=5
-num2=4
-sum=add(num1,num2)
-print(sum)
+def calculateArea(a,b):
+    return ((a*b)/2)
+num1=float(input("Enter the breadth: "))
+num2=float(input("\n Enter the height: "))
+Area=calculateArea(num1,num2)
+print(Area)
