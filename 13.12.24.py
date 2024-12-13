@@ -1,6 +1,10 @@
-def calculateArea(a,b):
-    return ((a*b)/2)
-num1=float(input("Enter the breadth: "))
-num2=float(input("\n Enter the height: "))
-Area=calculateArea(num1,num2)
-print(Area)
+def swapperfn(b,c):
+   return c,b
+a=int(input("Enter first number"))
+d=int(input("\n Enter second number"))
+a,d=swapperfn(a,d)
+print("The value of a after swapping is: ",a)
+print("The value of b after swapping is: ",d)
+
+
+
